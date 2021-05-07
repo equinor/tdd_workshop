@@ -14,15 +14,16 @@ def test_two_numbers():
 
 
 # Test 1 number
-# def test_one_numbers():
-#     input="1"
-#     result=add_string(input)
-#     expected_result=1
-#     assert expected_result==result
+def test_one_numbers():
+    input = "1"
+    result = add_string(input)
+    expected_result = 1
+    assert expected_result == result
+
 
 # Test input is empty
-# def test_empty_string():
-#     input=""
-#     result=add_string(input)
-#     expected_result=0
-#     assert expected_result==result
+def test_empty_string():
+    input = ""
+    result = add_string(input)
+    expected_result = 0
+    assert expected_result == result
