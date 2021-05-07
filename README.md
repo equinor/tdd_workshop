@@ -2,14 +2,29 @@
 Dive deeply into TDD by sharing experience and practicing new tools
 - Practical workshop, full of examples
 - Thinking programming as communicating 
-* Simple, clear, robust code
-* Maintainable, scalable, undestandable
-* Effective, resilient to change
+  * Simple, clear, robust code
+  * Maintainable, scalable, undestandable
+  * Effective, resilient to change
+
+- Selling point: How tests can be useful to scripters?
+
+# Why tests?
+- Make sure the code works as expected
+- Detect edge cases
+- Feel confident to refactor without being afraid of breaking the entire pipeline
+- Your teammates can understand your
+functions by looking at your tests
+- Prevent unexpected output
+- Simplifies updating code
+- Increases overall efficiency of developing code
+- Helps to detect edge cases
+- And most importantly prevents you from pushing any broken code into production!
 
 # Persona
-- Ada: A software developer in the beginning of a journey to become the best developer she can be. 
+- Ada: A developer in the beginning of a journey to become the best developer she can be. 
 With a background in exact sciences, she has heard about tests but does not practice TDD.
 She has some software patterns in mind from recent learning, but limited experience in structuring code.
+Using Python to script but would like to explore more software engineering to improve. 
 
 # Disclaimer
 Sharing is caring! This is part of a learning journey. I am much more a curious individual than an expert. The objective is to share my learnings so far while enabling us to collaborate, learn and connect around an important topic. I assume that independently of your experience, you are curious to learn, courageous to ask and share and, finally, respectfull about the stage each one is right now.
@@ -41,15 +56,18 @@ We will go through:
 1. Conclude with a recap, references for further learning
 
 Commit early and often!
+Good practices for a commit:
+https://chris.beams.io/posts/git-commit/
 
 ## 1. Does everyone have the requirements?
 - VSC: terminal type "code" and VSC should open
 - python --version 
+- a virtual environment (how to?)
+  * "python -m venv tdd_venv", ".\tdd_venv\Scripts\activate" (Windows) or "source tdd_venv/bin/activate" (unix)
 - git --version, black --version
 - github: clone repository locally (where Github Actions is setup)
-- Have a recipe: Create a virtual environment and configure in VSC
 - Have a recipe: Clone, SHA, git pull, git branch, git add, git commit, git push
-
+- Configure test with VSC (ctrl+shift+P, Python: Configure tests) https://code.visualstudio.com/docs/python/testing
 
 ## 1. The problem: String calculator¹
 
@@ -60,6 +78,7 @@ For example "" or "1" or "1,2" as inputs.
 For an empty string it will return 0.
 
 The cycle is as follows:
+
 0. Make a list of tests we know we need to have working
 1. Add a little test: write just enough of a test to fail
 1. Run all tests and fail
@@ -74,6 +93,7 @@ Discussion:
 - Let's try: Test pipeline, continuous integration
 - Remember to save changes :-) 
 - DRY: Don't Repeat Yourself!
+- @pytest.mark.parametrize to run multiple test cases
 - Debugging with test (tools?)
 
 ### Step 2
