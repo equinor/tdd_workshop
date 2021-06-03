@@ -21,24 +21,23 @@ functions by looking at your tests
 - And most importantly prevents you from pushing any broken code into production!
 
 # Persona
-- Ada: A developer in the beginning of a journey to become the best developer she can be. 
-With a background in exact sciences, she has heard about tests but does not practice TDD.
-She has some software patterns in mind from recent learning, but limited experience in structuring code.
+- A developer in the beginning of a journey to become the best developer she/he can be. 
+With a background in exact sciences, he/she has heard about tests but does not practice TDD.
+She/he has some software patterns in mind from recent learning, but limited experience in structuring code.
 Using Python to script but would like to explore more software engineering to improve. 
 
 # Disclaimer
 Sharing is caring! This is part of a learning journey. I am much more a curious individual than an expert. The objective is to share my learnings so far while enabling us to collaborate, learn and connect around an important topic. I assume that independently of your experience, you are curious to learn, courageous to ask and share and, finally, respectfull about the stage each one is right now.
 
 # Community
-In Slack: #tdd-test-driven-development.
+In Slack: [#tdd-test-driven-development] (https://app.slack.com/client/T02JL00JU/C01SP39JDFU/thread/C8W3SUK17-1622572475.035100).
 
 # Requirements
-- Installed VSC
-- Installed python version
+- VSC
+- Python
 - git
 - github account with Equinor
 - Camera
-- Formatting tool: black (we will talk about it ;-) )
 
 # Story
 
@@ -46,14 +45,14 @@ Warning: the workshop is based on our own work together. You may find imperfecti
 
 We will go through:
 1. Check that all requirements are in place for all
-1. Have a short pause (eventual catch-up with missing requiments)
-1. Present a problem to solve
-1. Demonstrate TDD while working together (~peer-programming)
-1. After each step, a pause for:
+2. Have a short pause (eventual catch-up with missing requiments)
+3. Present a problem to solve
+4. Demonstrate TDD while working together (~peer-programming)
+5. After each step, a pause for:
     - sharing the work
     - discussing key topics/challenges
     - catching up (or pull from a repository)
-1. Conclude with a recap, references for further learning
+6. Conclude with a recap, references for further learning
 
 Commit early and often!
 Good practices for a commit:
@@ -69,7 +68,7 @@ https://chris.beams.io/posts/git-commit/
 - Have a recipe: Clone, SHA, git pull, git branch, git add, git commit, git push
 - Configure test with VSC (ctrl+shift+P, Python: Configure tests) https://code.visualstudio.com/docs/python/testing
 
-## 1. The problem: String calculator¹
+## 2. The problem: String calculator¹
 
 ### Step 1:
 
@@ -81,10 +80,10 @@ The cycle is as follows:
 
 0. Make a list of tests we know we need to have working
 1. Add a little test: write just enough of a test to fail
-1. Run all tests and fail
-1. Make a little change: write just enough code to make it pass
-1. Run the tests and succeed
-1. Refactor to remove duplication: clean up the mess made getting the test to pass
+2. Run all tests and fail
+3. Make a little change: write just enough code to make it pass
+4. Run the tests and succeed
+5. Refactor to remove duplication: clean up the mess made getting the test to pass
 
 Discussion:
 - Being able to take teeny-tiny steps, not necessarily doing it
@@ -121,23 +120,16 @@ Surprise!
     - Bugg (regression test)
     - Refactoring (know the desided behaviour)
     - Using testing to review
-1. TDD:
+2. TDD:
 - avoid spaguetti code
 - if it is hard to write a test: think about what you are trying to code
 - side effects (non obvious behaviour/not main goal)
-1. Continuous integration
+3. Continuous integration
 - Test in Github actions (or Circle CI, Jenkins)
 - Features: scalable 
 
 # Additional resources
 - TDD chanel
-
-# Contributors
-Grateful to colleagues contributing behind the scenes:
-- LauraSManns 
-- lars-petter-hauge
-- oyvindeide
-- Lars Kåre
 
 # References:
 ¹ https://kata-log.rocks/string-calculator-kata
