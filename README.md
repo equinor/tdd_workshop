@@ -22,7 +22,7 @@ functions by looking at your tests
 - A developer in the beginning of a journey to become the best developer she/he can be. 
 With a background in exact sciences, he/she has heard about tests but does not practice TDD.
 She/he has some software patterns in mind from recent learning, but limited experience in structuring code.
-Using Python to script but would like to explore more software engineering to improve.
+Using Python to script but would like to explore more software engineering to improve. 
 
 # Disclaimer
 Sharing is caring! This is part of a learning journey. I am much more a curious individual than an expert. The objective is to share my learnings so far while enabling us to collaborate, learn and connect around an important topic. I assume that independently of your experience, you are curious to learn, courageous to ask and share and, finally, respectfull about the stage each one is right now.
