@@ -28,21 +28,6 @@ https://www.softwaretestinghelp.com/the-difference-between-unit-integration-and-
 https://stackoverflow.com/questions/65577254/python-module-import-statement-runs-in-pycharm-but-not-in-vscode
 - "python -m venv tdd_venv" leads to "Error: [WinError 1260] This program is blocked by group policy. For more information, contact your system administrator"
 
-
-https://chris.beams.io/posts/git-commit/
-The seven rules of a great Git commit message
-
-    Keep in mind: This has all been said before.
-
-    Separate subject from body with a blank line
-    Limit the subject line to 50 characters
-    Capitalize the subject line
-    Do not end the subject line with a period
-    Use the imperative mood in the subject line
-    Wrap the body at 72 characters
-    Use the body to explain what and why vs. how
-
-
 # For data scientists
 https://medium.com/miq-tech-and-analytics/test-driven-development-in-data-science-190f1247ebbc
 
@@ -57,4 +42,4 @@ python modules -> jupyter
 - commit before black to see the difference
 - first test demonstrate, then ask people to do 
 - size: 2.5 h until step 1 with an experienced  scripter
-- virtual environment (is it necessary?)
+- virtual environment (is it really necessary?)

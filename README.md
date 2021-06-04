@@ -1,12 +1,10 @@
 # Purpose
-Dive deeply into TDD by sharing experience and practicing new tools
-- Practical workshop, full of examples
-- Thinking programming as communicating 
+Dive into tests and TDD by sharing experience and practicing together
+- Practical workshop, mainly with examples
+- Think programming as communicating 
   * Simple, clear, robust code
   * Maintainable, scalable, undestandable
   * Effective, resilient to change
-
-- Selling point: How tests can be useful to scripters?
 
 # Why tests?
 - Make sure the code works as expected
@@ -30,7 +28,7 @@ Using Python to script but would like to explore more software engineering to im
 Sharing is caring! This is part of a learning journey. I am much more a curious individual than an expert. The objective is to share my learnings so far while enabling us to collaborate, learn and connect around an important topic. I assume that independently of your experience, you are curious to learn, courageous to ask and share and, finally, respectfull about the stage each one is right now.
 
 # Community
-In Slack: [#tdd-test-driven-development] (https://app.slack.com/client/T02JL00JU/C01SP39JDFU/thread/C8W3SUK17-1622572475.035100).
+In Slack: [#tdd-test-driven-development](https://app.slack.com/client/T02JL00JU/C01SP39JDFU/thread/C8W3SUK17-1622572475.035100).
 
 # Requirements
 - VSC
@@ -41,22 +39,22 @@ In Slack: [#tdd-test-driven-development] (https://app.slack.com/client/T02JL00JU
 
 # Story
 
-Warning: the workshop is based on our own work together. You may find imperfection or questionable things. Follow up and raise hand to ask and help!
+Warning: the workshop is based on our own work together. 
+You will find imperfections or questionable things, let's discuss them.
 
 We will go through:
 1. Check that all requirements are in place for all
-2. Have a short pause (eventual catch-up with missing requiments)
+2. Have a short pause (if needed, eventual catch-up with missing requirements)
 3. Present a problem to solve
 4. Demonstrate TDD while working together (~peer-programming)
 5. After each step, a pause for:
     - sharing the work
     - discussing key topics/challenges
-    - catching up (or pull from a repository)
-6. Conclude with a recap, references for further learning
+    - catching up
+6. Conclude with a recap
 
 Commit early and often!
-Good practices for a commit:
-https://chris.beams.io/posts/git-commit/
+Good practices for a commit, by [Chris Beams](https://chris.beams.io/posts/git-commit/)
 
 ## 1. Does everyone have the requirements?
 - VSC: terminal type "code" and VSC should open
@@ -65,8 +63,10 @@ https://chris.beams.io/posts/git-commit/
   * "python -m venv tdd_venv", ".\tdd_venv\Scripts\activate" (Windows) or "source tdd_venv/bin/activate" (unix)
 - git --version, black --version
 - github: clone repository locally (where Github Actions is setup)
-- Have a recipe: Clone, SHA, git pull, git branch, git add, git commit, git push
-- Configure test with VSC (ctrl+shift+P, Python: Configure tests) https://code.visualstudio.com/docs/python/testing
+  * some may need:
+  [Github/git cheat-sheet](https://training.github.com/downloads/github-git-cheat-sheet/)
+  [Connecting to Github with ssh](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+  [Configure test with VSC (ctrl+shift+P, Python: Configure tests)](https://code.visualstudio.com/docs/python/testing)
 
 ## 2. The problem: String calculator¹
 
@@ -103,8 +103,6 @@ Allow the Add method to handle new lines between numbers (instead of commas):
 - The following input is ok: “1\n2,3” (will equal 6)
 - The following input is NOT ok: “1,\n” (not need to prove it - just clarifying)
 
-### Step 4
-Surprise!
 
 # Conclusion
 - What was useful?
@@ -113,16 +111,16 @@ Surprise!
 - Remember to save changes :-) 
 - DRY: Don't Repeat Yourself!
 
-# Testing
+# Additional comments
 
 1. Why should we test? 
     - Intention of code, documentation coverage (in/out), confidence (failing test)
     - Bugg (regression test)
-    - Refactoring (know the desided behaviour)
+    - Refactoring (know the desired behaviour)
     - Using testing to review
 2. TDD:
 - avoid spaguetti code
-- if it is hard to write a test: think about what you are trying to code
+- if it is hard to write a test: rethink about what you are trying to code
 - side effects (non obvious behaviour/not main goal)
 3. Continuous integration
 - Test in Github actions (or Circle CI, Jenkins)

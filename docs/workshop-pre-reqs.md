@@ -6,18 +6,9 @@ The following are the technical and non-technical pre-requisites for the worksho
 
 Make sure that your "Equinor Software Developer" status is still valid. If not, this is an on-line session that can be booked through Learn@Equinor.
 
-## Access to Equinors organization on github.com
+## Access to Equinor's organization on github.com
 
 You need access to Equinors Organization on github.com (github.com/equinor). Apply for access using [Access IT](https://accessit.equinor.com/).
-
-## Windows Elevated Installer
-
-You need _Windows Elevated Installer_ to install certain software in your development environment.
-You can apply for this in [Access IT](https://accessit.equinor.com/).
-
-## Windows 10 Developer Profile (optional)
-
-If you are on an Equinor Managed Windows 10 Laptop there are certain things that are really difficult to do. However, for this course, Elevated Installer is enough. If you want to do anything more fancy, you might want to consider to install "Windows 10 Developer Profile". You can apply for this in [Access IT](https://accessit.equinor.com/). This requires "Equinor Software Developer" status.
 
 ## Development Environment
 
@@ -37,6 +28,6 @@ Make sure that your microphone and camera is working properly. This is an intera
 ## Skills
 
 Quite a few :) We expect some software development skills, but we will support you in any case.
-Some rudimentary knowledge to basic Linux commands will be helpful.
+Some knowledge to basic python, git, Linux commands will be helpful.
 
 * based on https://github.com/equinor/oc-iaas-iac-course
