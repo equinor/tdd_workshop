@@ -1,3 +1,4 @@
 def add_string(input_string):
-    a, b = map(int, input_string.split(","))
-    return a + b
+    if input_string == '':
+        return 0
+    return sum(map(complex, input_string.split(",")))
