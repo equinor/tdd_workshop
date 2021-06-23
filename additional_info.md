@@ -1,10 +1,3 @@
-# To do
-- Github Actions pipeline
-- Review discussion topics in each stage
-- Make "recipes" for git
-- Check clone repository for peers and using github actions
-- Check how to import modules from a notebook
-
 # Search more about:
 * Value objects
 * aliasing
@@ -33,13 +26,3 @@ https://medium.com/miq-tech-and-analytics/test-driven-development-in-data-scienc
 
 https://www.linkedin.com/pulse/software-engineering-data-scientist-test-driven-gopinadhan-jagan-/
 python modules -> jupyter
-
-# Feedback, workshop 1
-- defining a selling story (before -> after) to motivate: colaboration tool, communication, commom basis of understanding between developers
-- add remote
-- fork
-- git fundamentals
-- commit before black to see the difference
-- first test demonstrate, then ask people to do 
-- size: 2.5 h until step 1 with an experienced  scripter
-- virtual environment (is it really necessary?)
