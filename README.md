@@ -31,6 +31,8 @@ functions by looking at your tests
 - github account with Equinor
 - Camera
 
+- Before the workshop, please check detailed requirements [here](https://github.com/equinor/tdd_workshop/issues/7).
+
 # Story
 
 Warning: the workshop is based on our own work together. 
