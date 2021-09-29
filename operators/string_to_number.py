@@ -1,2 +1,2 @@
 def string_to_int(string_input):
-    return int(1)
+    return int(string_input)
