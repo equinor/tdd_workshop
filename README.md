@@ -79,5 +79,23 @@ Discussion:
 - Remember to save changes :-) 
 - DRY: Don't Repeat Yourself!
 
+# Contributing
+
+## Run tests
+
+[pytest](https://docs.pytest.org/en/latest/) is used as the test runner, to test:
+
+```sh
+# Test
+pytest
+```
+
+this requires that the dev dependencies from `dev-requirements.txt` are installed.
+
+```sh
+# Install test requirements
+pip install -r dev-requirements.txt
+```
+
 # References:
 The exercise presented on the issues are based on: https://kata-log.rocks/string-calculator-kata
