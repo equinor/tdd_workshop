@@ -16,9 +16,6 @@ setup(
         "Topic :: Learning :: Software Test",
     ],
     packages=find_packages(exclude=["tests"]),
-    install_requires=[
-        "pytest",
-        "black",
-    ],
+    install_requires=[],
     test_suite="tests",
 )
