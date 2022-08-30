@@ -1,12 +1,12 @@
 # Disclaimer
-Sharing is caring! This is part of a learning journey. I am much more a curious individual than an expert. The objective is to share my learnings so far while enabling us to collaborate, learn and connect around an important topic. I assume that independently of your experience, you are curious to learn, courageous to ask and share and, finally, respectfull about the stage each one is right now.
+Sharing is caring! This is part of a learning journey. I am much more a curious individual than an expert. The objective is to share my learnings so far while enabling us to collaborate, learn and connect around an important topic. I assume that independently of your experience, you are curious to learn, courageous to ask and share and, finally, respectful about the stage each one is in right now.
 
 # Purpose
-Dive into tests and TDD by sharing experience and practicing together
+Dive into tests and Test-Driven-Development (TDD) by sharing experience and practicing together
 - Practical workshop, mainly with examples
 - Think programming as communicating 
   * Simple, clear, robust code
-  * Maintainable, scalable, undestandable
+  * Maintainable, scalable, understandable
   * Effective, resilient to change
 
 # Community
@@ -21,7 +21,6 @@ functions by looking at your tests
 - Prevent unexpected output
 - Simplifies updating code
 - Increases overall efficiency of developing code
-- Helps to detect edge cases
 - And most importantly prevents you from pushing any broken code into production!
 
 # Requirements
