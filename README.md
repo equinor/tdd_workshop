@@ -1,5 +1,5 @@
 # Disclaimer
-Sharing is caring! This is part of a learning journey. I am much more a curious individual than an expert. The objective is to share my learnings so far while enabling us to collaborate, learn and connect around an important topic. I assume that independently of your experience, you are curious to learn, courageous to ask and share and, finally, respectful about the stage each one is in right now.
+Sharing is caring! This is part of a learning journey. We are much more curious individuals than experts. The objective is to share our learnings so far while enabling us to collaborate, learn and connect around an important topic. We assume that independently of your experience, you are curious to learn, courageous to ask and share and, finally, respectful about the stage each one is in right now.
 
 # Purpose
 Dive into tests and Test-Driven-Development (TDD) by sharing experience and practicing together
