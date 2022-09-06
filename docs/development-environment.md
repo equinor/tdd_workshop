@@ -54,4 +54,7 @@ Tools like GitBash and VSCode for Windows can be installed using Equinor Applica
 
 Tools can be downloaded and installed manually or by your preferred package management systems. Some of the tools are available in [Access IT](https://accessit.equinor.com/) for Managed Equinor Windows computers.
 
-* based on https://github.com/equinor/oc-iaas-iac-course
+
+
+
+This section used https://github.com/equinor/oc-iaas-iac-course as reference.
