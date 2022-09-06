@@ -24,36 +24,27 @@ functions by looking at your tests
 - And most importantly prevents you from pushing any broken code into production!
 
 # Requirements
-- VSC
-- Python
-- git
-- github account with Equinor
-- Camera
-
-- Before the workshop, please check detailed requirements [here](https://github.com/equinor/tdd_workshop/issues/7).
+Please check the [dedicated page for this workshop](/docs/workshop-pre-reqs.md).
 
 # Story
-
-Warning: the workshop is based on our own work together. 
+Disclaimer: the workshop is based on our own work together.
 You will find imperfections or questionable things, let's discuss them.
 
 We will go through:
 1. Check that all requirements are in place for all
-2. Have a short pause (if needed, eventual catch-up with missing requirements)
-3. Present a problem to solve
-4. Demonstrate TDD while working together (~peer-programming)
+2. Share previous experiences with TDD
+3. Demonstrate TDD while working together (~peer-programming)
+4. Present a problem to solve
 5. After each step, a pause for:
     - sharing the work
     - discussing key topics/challenges
     - catching up
-6. Conclude with a recap
+6. Conclude with wrap-up and feedback
 
 Commit early and often!
 Good practices for a commit, by [Chris Beams](https://chris.beams.io/posts/git-commit/)
 
-
-The cycle is as follows:
-
+# One way to go
 0. Make a list of tests we know we need to have working
 1. Add a little test: write just enough of a test to fail
 2. Run all tests and fail
@@ -61,7 +52,7 @@ The cycle is as follows:
 4. Run the tests and succeed
 5. Refactor to remove duplication: clean up the mess made getting the test to pass
 
-Discussion:
+Discussions:
 - Being able to take teeny-tiny steps, not necessarily doing it
 - Add items to our to-do list rather than addressing them all at once
 - Commit early and often!
@@ -71,17 +62,9 @@ Discussion:
 - @pytest.mark.parametrize to run multiple test cases
 - Debugging with test (tools?)
 
-# Conclusion
-- What was useful?
-- What was not?
-- Let's try: Test pipeline, continuous integration
-- Remember to save changes :-) 
-- DRY: Don't Repeat Yourself!
-
 # Contributing
 
 ## Run tests
-
 [pytest](https://docs.pytest.org/en/latest/) is used as the test runner, to test:
 
 ```sh
@@ -96,5 +79,5 @@ this requires that the dev dependencies from `dev-requirements.txt` are installe
 pip install -r dev-requirements.txt
 ```
 
-# References:
+# References
 The exercise presented on the issues are based on: https://kata-log.rocks/string-calculator-kata
