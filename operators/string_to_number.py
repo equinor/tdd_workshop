@@ -1,6 +1,7 @@
 def string_to_int(string_input):
     return int(string_input)
 
+
 def string_to_numbers(txt: str) -> tuple:
     """Convert the txt to a tuple of ints"""
 
