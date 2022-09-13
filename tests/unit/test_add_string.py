@@ -1,4 +1,3 @@
-from re import X
 from operators.add_string import add
 
 def test_two_numbers_are_equal():
