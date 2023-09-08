@@ -18,6 +18,8 @@ jobs:
         with:
           python-version: "3.11"
       - name: Install test requirements
-        run: pip install black
+        run: pip install -r dev-requirements.txt
       - name: Check black
         run: black --check .
+      - name: Check typing
+        run: mypy src
