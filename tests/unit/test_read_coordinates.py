@@ -1,7 +1,7 @@
 from tdd_workshop.find_treasure_coordinate import (
     read_coordinates,
     calculate_diff_coordinates,
-    calculate_slope,
+    calculate_slopes,
 )
 import pytest
 
@@ -55,7 +55,7 @@ def test_calculate_slope():
     ]
     expected_slopes = [0.8, 0.6, -0.2, 4.0, -1.0]
 
-    assert calculate_slope(diff_coordinates) == expected_slopes
+    assert calculate_slopes(diff_coordinates) == expected_slopes
 
 
 def test_get_slope_index_based_on_threshold():
