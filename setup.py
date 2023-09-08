@@ -15,7 +15,8 @@ setup(
         "Programming Language :: Python :: 3.6",
         "Topic :: Learning :: Software Test",
     ],
-    packages=find_packages(exclude=["tests"]),
+    packages=find_packages(where="src", exclude=["tests"]),
+    package_dir={"": "src"},
     install_requires=[],
     test_suite="tests",
 )
