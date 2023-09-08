@@ -24,7 +24,7 @@ def test_that_we_can_split_file_into_coordinates(test_data_path):
     assert read_coordinates(test_data_path / "test_input") == expected_coordinates_list
 
 
-def test_calculate_diff_coordinates(test_data_path):
+def test_calculate_diff_coordinates():
     coordinates = [
         (float("1"), float("1")),
         (float("2.0"), float("1.8")),
