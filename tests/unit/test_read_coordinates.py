@@ -3,6 +3,7 @@ from tdd_workshop.find_treasure_coordinate import (
     calculate_diff_coordinates,
     calculate_slopes,
     get_slope_index_based_on_threshold,
+    treasure_coordinate,
 )
 import pytest
 
@@ -68,7 +69,8 @@ def test_get_slope_index_based_on_threshold():
 
 
 def test_treasure_coordinate(test_data_path):
-    input_file = "test_input"
+    print(test_data_path)
+    input_file = test_data_path / "test_input"
     threshold = 1
     expected_coordinate = (4.3, 7.2)
 

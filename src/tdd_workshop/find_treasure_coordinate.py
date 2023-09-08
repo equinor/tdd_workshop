@@ -43,3 +43,12 @@ def get_slope_index_based_on_threshold(slopes_list, threshold):
     for slope_index, slope in enumerate(slopes_list):
         if slope >= threshold:
             return slope_index
+
+
+def treasure_coordinate(input_file, threshold):
+    coordinates = read_coordinates(input_file)
+    diff_coordinates = calculate_diff_coordinates(coordinates)
+    slopes_list = calculate_slopes(diff_coordinates)
+    slope_index = get_slope_index_based_on_threshold(slopes_list, threshold)
+
+    return coordinates[slope_index + 1]
