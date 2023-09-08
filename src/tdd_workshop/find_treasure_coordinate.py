@@ -29,3 +29,11 @@ def calculate_diff_coordinates(coordinates):
             (x0, y0) = (x, y)
 
     return diff_coordinates
+
+
+def calculate_slope(diff_coordinates):
+    slope = []
+    for diff_coordinate_number, (x, y) in enumerate(diff_coordinates):
+        slope.append(y/x)
+
+    return slope
