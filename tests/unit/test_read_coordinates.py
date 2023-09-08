@@ -60,7 +60,7 @@ def test_calculate_slope():
 
 def test_get_slope_index_based_on_threshold():
     slopes_list = [0.8, 0.6, -0.2, 4.0, -1.0]
-    expected_index = 4
+    expected_index = 3
     threshold = 1
 
     assert get_slope_index_based_on_threshold(slopes_list, threshold) == expected_index
