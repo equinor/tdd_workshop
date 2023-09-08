@@ -2,6 +2,7 @@ from tdd_workshop.find_treasure_coordinate import (
     read_coordinates,
     calculate_diff_coordinates,
     calculate_slopes,
+    get_slope_index_based_on_threshold,
 )
 import pytest
 

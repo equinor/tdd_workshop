@@ -37,3 +37,9 @@ def calculate_slopes(diff_coordinates):
         slope.append(y / x)
 
     return slope
+
+
+def get_slope_index_based_on_threshold(slopes_list, threshold):
+    for slope_index, slope in enumerate(slopes_list):
+        if slope >= threshold:
+            return slope_index
