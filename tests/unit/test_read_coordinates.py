@@ -44,9 +44,17 @@ def test_calculate_diff_coordinates():
     assert calculate_diff_coordinates(coordinates) == expected_diff_coordinates
 
 
-def test_calculate_slope(test_data_path):
+def test_calculate_slope():
+    diff_coordinates = [
+        (float("1"), float("0.8")),
+        (float("0.5"), float("0.3")),
+        (float("0.5"), float("-0.1")),
+        (float("1.3"), float("5.2")),
+        (float("1"), float("-1")),
+    ]
     expected_slopes = [0.8, 0.6, -0.2, 4.0, -1.0]
-    pass
+
+    assert calculate_slope(diff_coordinates) == expected_slopes
 
 
 def test_get_slope_index_based_on_threshold():
