@@ -1,5 +1,6 @@
 from __future__ import annotations
 from typing import TYPE_CHECKING
+import sys
 
 if TYPE_CHECKING:
     from pathlib import Path
@@ -52,3 +53,12 @@ def treasure_coordinate(input_file, threshold):
     slope_index = get_slope_index_based_on_threshold(slopes_list, threshold)
 
     return coordinates[slope_index + 1]
+
+
+if __name__ == "__main__":
+    print(sys.argv[1], float(sys.argv[2]))
+    print(treasure_coordinate(sys.argv[1], float(sys.argv[2])))
+
+# Folders of files
+## /workspaces/tdd_workshop/tests/unit/test_input
+## /workspaces/tdd_workshop/src/tdd_workshop/find_treasure_coordinate.py
