@@ -1,4 +1,7 @@
-from tdd_workshop.find_treasure_coordinate import read_coordinates, calculate_diff_coordinates
+from tdd_workshop.find_treasure_coordinate import (
+    read_coordinates,
+    calculate_diff_coordinates,
+)
 import pytest
 
 
