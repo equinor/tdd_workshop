@@ -17,3 +17,15 @@ def read_coordinates(file_name: Union[str, Path]) -> List[Tuple[float, float]]:
             x, y = line.strip().split(",")
             coordinates.append((float(x), float(y)))
     return coordinates
+
+
+def calculate_diff_coordinates(coordinates):
+    diff_coordinates = []
+    for coordinate_number, (x, y) in enumerate(coordinates):
+        if coordinate_number == 0:
+            (x0, y0) = (x,y)
+        else:
+            diff_coordinates.append((float(round(x-x0, 4)), float(round(y-y0,4))))
+            (x0, y0) = (x,y)
+
+    return diff_coordinates
