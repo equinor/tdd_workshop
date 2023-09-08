@@ -65,3 +65,11 @@ def test_get_slope_index_based_on_threshold():
     threshold = 1
 
     assert get_slope_index_based_on_threshold(slopes_list, threshold) == expected_index
+
+
+def test_treasure_coordinate(test_data_path):
+    input_file = "test_input"
+    threshold = 1
+    expected_coordinate = (4.3, 7.2)
+
+    assert treasure_coordinate(input_file, threshold) == expected_coordinate
