@@ -32,11 +32,11 @@ def calculate_diff_coordinates(coordinates):
 
 
 def calculate_slopes(diff_coordinates):
-    slope = []
+    slopes_list = []
     for diff_coordinate_number, (x, y) in enumerate(diff_coordinates):
-        slope.append(y / x)
+        slopes_list.append(y / x)
 
-    return slope
+    return slopes_list
 
 
 def get_slope_index_based_on_threshold(slopes_list, threshold):
