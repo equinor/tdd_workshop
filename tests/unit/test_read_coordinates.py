@@ -1,4 +1,5 @@
-from tdd_workshop.find_treasure_coordinate import read_coordinates
+from tdd_workshop.find_treasure_coordinate import read_coordinates, calculate_diff_coordinates
+import pytest
 
 
 def test_that_we_can_split_file_into_coordinates(test_data_path):
