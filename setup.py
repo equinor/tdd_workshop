@@ -17,8 +17,11 @@ setup(
         "Programming Language :: Python :: 3.11",
         "Topic :: Learning :: Software Test",
     ],
+    entry_points={
+        "console_scripts": ["treasure-hunt=tdd_workshop.cli:main"],
+    },
     packages=find_packages(where="src", exclude=["tests"]),
     package_dir={"": "src"},
-    install_requires=[],
+    install_requires=["click"],
     test_suite="tests",
 )
