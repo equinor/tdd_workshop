@@ -23,7 +23,4 @@ Some knowledge to basic python, git, Linux commands will be helpful.
 
 Make sure that your microphone and camera is working properly. This is an interactive workshop. In addition to knowledge transfer, the course is very much focused on discussion, team building and learning from each other. We expect all participants to engage and contribute, and we will ask everyone attending to keep their camera on during the whole course.
 
-
-
-
 This section used https://github.com/equinor/oc-iaas-iac-course as reference.

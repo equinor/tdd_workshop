@@ -1,6 +1,12 @@
 # Disclaimer
 Sharing is caring! This is part of a learning journey. We are much more curious individuals than experts. The objective is to share our learnings so far while enabling us to collaborate, learn and connect around an important topic. We assume that independently of your experience, you are curious to learn, courageous to ask and share and, finally, respectful about the stage each one is in right now.
 
+The workshop is based on our own work together.
+You will find imperfections or questionable things, let's discuss them.
+
+Commit early and often!
+Good practices for a commit, by [Chris Beams](https://chris.beams.io/posts/git-commit/)
+
 # Purpose
 Dive into tests and Test-Driven-Development (TDD) by sharing experience and practicing together
 - Practical workshop, mainly with examples
@@ -26,24 +32,6 @@ functions by looking at your tests
 # Requirements
 Please check the [dedicated page for this workshop](/docs/workshop-pre-reqs.md).
 
-# Story
-Disclaimer: the workshop is based on our own work together.
-You will find imperfections or questionable things, let's discuss them.
-
-We will go through:
-1. Check that all requirements are in place for all
-2. Share previous experiences with TDD
-3. Demonstrate TDD while working together (~peer-programming)
-4. Present a problem to solve
-5. After each step, a pause for:
-    - sharing the work
-    - discussing key topics/challenges
-    - catching up
-6. Conclude with wrap-up and feedback
-
-Commit early and often!
-Good practices for a commit, by [Chris Beams](https://chris.beams.io/posts/git-commit/)
-
 # One way to go
 0. Make a list of tests we know we need to have working
 1. Add a little test: write just enough of a test to fail
@@ -61,23 +49,3 @@ Discussions:
 - DRY: Don't Repeat Yourself!
 - @pytest.mark.parametrize to run multiple test cases
 - Debugging with test (tools?)
-
-# Contributing
-
-## Run tests
-[pytest](https://docs.pytest.org/en/latest/) is used as the test runner, to test:
-
-```sh
-# Test
-pytest
-```
-
-this requires that the dev dependencies from `dev-requirements.txt` are installed.
-
-```sh
-# Install test requirements
-pip install -r dev-requirements.txt
-```
-
-# References
-The exercise presented on the issues are based on: https://kata-log.rocks/string-calculator-kata
