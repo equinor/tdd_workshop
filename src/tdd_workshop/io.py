@@ -40,12 +40,26 @@ def find_coordinate_based_on_incline_treshold(coordinates, treshold):
         p2 = coordinates[i+1]
         if slope(p1, p2) > treshold:
             return p2
+    
+    raise RuntimeError("No slopes above %s was found", treshold)
 
 def slope(p1, p2):
-    """Calculate slope from p1 to p2."""
+    """Calculate slope from p1 to p2.
+    
+    >>> slope((1.0, 0.0), (2.0, 0.0))
+    0.0
+    >>> slope((1.0, 0.0), (2.0, 1.0))
+    1.0
+    """
+
     x1, y1 = p1
     x2, y2 = p2
 
     _slope = (y2-y1)/(x2-x1)
     _slope = round(_slope, 2)
     return _slope
+
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod()
