@@ -23,5 +23,5 @@ def test_that_cli_prints_coordinates(monkeypatch, tmp_path):
     result = runner.invoke(main, ["test_input"])
     assert result.exit_code == 0
     assert (
-        "coordinates: [('2.0', '1.9'), ('2.5', '1.5'), ('3.3', '7.3')]" in result.output
+        "coordinates: [(2.0, 1.9), (2.5, 1.5), (3.3, 7.3)]" in result.output
     )
