@@ -40,8 +40,6 @@ def find_coordinate_based_on_incline_treshold(coordinates, treshold):
         p2 = coordinates[i+1]
         if slope(p1, p2) > treshold:
             return p2
-    
-
 
 def slope(p1, p2):
     """Calculate slope from p1 to p2."""
