@@ -1,9 +1,5 @@
-from __future__ import annotations
-from typing import TYPE_CHECKING
-
-if TYPE_CHECKING:
-    from pathlib import Path
-    from typing import Union, List, Tuple
+from pathlib import Path
+from typing import List, Tuple, Union
 
 
 def read_coordinates(file_name: Union[str, Path]) -> List[Tuple[str, str]]:
