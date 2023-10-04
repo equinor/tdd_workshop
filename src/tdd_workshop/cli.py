@@ -1,5 +1,6 @@
 import click
-from tdd_workshop.io import read_coordinates  # type: ignore
+
+from tdd_workshop.io import read_coordinates
 
 
 @click.command()
